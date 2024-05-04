@@ -1,0 +1,187 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:satoshi,sans-serif;
+    box-sizing:border-box;
+}
+.header{
+    padding:10px;
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+.links{
+    display:flex;
+    gap:30px;
+    align-items: center;
+}
+.login{
+    padding: 3px;
+}
+.annoucement{
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 100vw;
+    height:8vh;
+    font-size:14px;
+    top:70px;
+}
+.hero-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  padding:20px;
+ align-items: center;
+ margin-top: 80px;
+ margin-bottom: 50px;
+  background: url(https://acciojob.com/_next/static/media/purple_arraow.e16eb7db.svg);
+  background-position: 60% 43%;
+  background-repeat:no-repeat;
+  background-size: 7%;
+}
+.hero-wrapper-left{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+    width:60%;
+    padding:15px;
+}
+.header-content-wrapper{
+    width: 88%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: #fff;
+    border:1px solid #e2e2e2;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, .08);
+    border-radius: 8px;
+    padding: 10px;
+}
+.header-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.header-content-div{
+    margin-left: 8px;
+}
+.header-content-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2b2f34;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header-content-subheading{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4f4f4f;
+}
+.header-special-content{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #525252;
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, .12);
+    border-radius: 23px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.app-form{
+    height: 83vh;
+    overflow:hidden;
+    background-color: #fff;
+    border:1px solid #e2e2e2;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, .08);
+    border-radius: 8px;
+}
+.landing-auth{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 18px 16px;
+}
+.title{
+    font-size:24px;
+    font-weight:700;
+    letter-spacing: -.336px;
+    line-height: 36px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align:center;
+    gap:3px;
+    color:#2b2f34;
+}
+.form{
+    align-items: stretch;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    height: max-content;
+    justify-content: flex-start;
+    margin-top:24px;
+    overflow:auto;
+    width:100%;
+}
+.input-label{
+    color: #667085;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112%;
+    position: relative;
+    top: 10px;
+}
+.input-field{
+    border-radius: 8px;
+    margin: 0;
+    align-items: start;
+    display: flex;
+}
+.course-section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.course-detail-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+.course-wrapper{
+    background-color: #fff;
+    border:1px solid #e2e2e2;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, .08);
+    border-radius: 8px;
+    padding: 10px;
+    width:40%
+}
+highlight{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
